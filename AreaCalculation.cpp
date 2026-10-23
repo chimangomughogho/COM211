@@ -24,25 +24,12 @@ int main() {
 
 
         if(n == 1){
-
-            while(true){  
                 double a;
                 cout << "Enter a single number to calculate the area of a square with: ";
                 cin >> a;
-                cout << "\n";
-
-                if(!(cin >> a)){
-                    cout << "Enter a valid input!\n";
-                    cin.clear();
-                    cin.ignore(1000, '\n');
-                    continue;
-                }
-
-            double result = Square(a);
-            cout << "The area of the Square is: " << result << "\n\n";
-            break;
-            }
-
+                double result = Square(a);
+                cout << "The area of the Square is: " << result << "\n\n";
+                break;
 
         } else if(n == 2){
                 double a, b;
