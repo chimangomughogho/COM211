@@ -29,7 +29,5 @@ int main() {
         cout << "you entered(" << n << "). please enter a number between 5 and 10" << endl;
     }
 
-    cout << "Accepted: " << n << endl;
-
     return 0;
 }
